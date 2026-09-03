@@ -42,7 +42,7 @@ OpenCV visualization and per-frame counting
 
 ```text
 .
-├── main.py
+├── image_detection.py
 ├── video_detection.py
 ├── webcam_detection.py
 ├── webcam_counting.py
@@ -75,7 +75,7 @@ pip install -r requirements.txt
 Run image detection:
 
 ```powershell
-python main.py
+python image_detection.py
 ```
 
 Run video detection:
