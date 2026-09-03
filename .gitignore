@@ -1,0 +1,33 @@
+# Python virtual environment
+cv-env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# YOLO downloaded model weights
+*.pt
+
+# Local input images
+*.jpg
+*.jpeg
+*.png
+
+# Local input/output videos
+*.mp4
+*.avi
+*.mov
+
+# YOLO-generated output folders
+runs/
+outputs/
+
+# VS Code local settings
+.vscode/
+
+# Optional: personal notes file
+main.txt
+
+# Windows system files
+Thumbs.db
+Desktop.ini
