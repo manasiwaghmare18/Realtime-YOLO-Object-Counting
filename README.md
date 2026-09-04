@@ -86,11 +86,10 @@ Add your own screenshots or short GIFs to make this section visual. Follow the i
 
 *YOLOv8 identifies objects in a still image and returns their class labels, confidence scores, and bounding boxes.*
 
-### Video Detection
+### 🎞️ Video Detection Demo
+https://github.com/user-attachments/assets/63b1dc54-8ced-4174-9c3c-0dd1df37ab11
 
-<!-- Replace this placeholder after adding assets/video-detection.gif or assets/video-detection.png -->
-![Video detection demo](assets/video-detection.gif)
-
+The application processes a recorded video frame by frame. YOLOv8 predicts object classes and bounding boxes, while OpenCV renders the class label and confidence score on each frame.
 *The video pipeline performs inference on each frame and visualizes results during playback.*
 
 ### Live Webcam Detection & Counting
