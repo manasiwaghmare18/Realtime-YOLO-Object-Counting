@@ -73,33 +73,36 @@ For every detection, the application can display:
 | 📊 Confidence scores | Show model confidence for each prediction |
 | ⚡ FPS monitoring | Display approximate frames per second in the counting application |
 
+----
+
+## 🎬 Live Demo Gallery
+
+The project supports three inference modes: static image detection, recorded-video detection, and live webcam detection with per-frame object counts.
+
+### 🖼️ Image Detection
+
+https://github.com/user-attachments/assets/14e00e5a-c0fb-47b0-b30d-d12333d3afbb
+
+*YOLOv8 identifies objects in a static image and returns the class label, confidence score, and bounding-box coordinates.*
+
 ---
 
-## 🖼️ Demo Gallery
+### 🎞️ Video Detection
 
-Add your own screenshots or short GIFs to make this section visual. Follow the instructions directly below this gallery to add them safely.
-
-### Image Detection
-
-<!-- Replace this placeholder after adding assets/image-detection.png -->
-![Image detection demo](assets/image-detection.png)
-
-*YOLOv8 identifies objects in a still image and returns their class labels, confidence scores, and bounding boxes.*
-
-### 🎞️ Video Detection Demo
 https://github.com/user-attachments/assets/63b1dc54-8ced-4174-9c3c-0dd1df37ab11
 
-The application processes a recorded video frame by frame. YOLOv8 predicts object classes and bounding boxes, while OpenCV renders the class label and confidence score on each frame.
-*The video pipeline performs inference on each frame and visualizes results during playback.*
+*The recorded video is processed frame by frame. Each frame passes through the YOLOv8 inference pipeline, and OpenCV displays bounding boxes, class labels, and confidence values in real time.*
 
-### Live Webcam Detection & Counting
+---
 
-<!-- Replace this placeholder after adding assets/webcam-counting.png -->
+### 📷 Webcam Detection and Counting
+
 ![Webcam detection and counting demo](assets/webcam-counting.png)
 
-*The live application overlays detected objects, current-frame class counts, and approximate FPS.*
+*The live webcam pipeline detects visible objects, overlays bounding boxes and confidence scores, counts classes in the current frame, and displays approximate FPS.*
+Add your own screenshots or short GIFs to make this section visual. Follow the instructions directly below this gallery to add them safely.
 
-> If an image does not render on GitHub, verify that the filename, capitalization, and extension exactly match the file inside the `assets/` folder.
+
 
 ---
 
