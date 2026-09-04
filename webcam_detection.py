@@ -6,7 +6,7 @@ results = model.predict(
     source=0,
     stream=True,
     imgsz=320,
-    conf=0.5,
+    conf=0.3,
     verbose=False
 )
 

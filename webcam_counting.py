@@ -6,7 +6,7 @@ from ultralytics import YOLO
 
 
 MODEL_PATH = "yolov8n.pt"
-CONFIDENCE_THRESHOLD = 0.5
+CONFIDENCE_THRESHOLD = 0.3
 IMAGE_SIZE = 320
 
 model = YOLO(MODEL_PATH)
@@ -31,7 +31,7 @@ while True:
         source=frame,
         imgsz=IMAGE_SIZE,
         conf=CONFIDENCE_THRESHOLD,
-        verbose=False
+        
     )
 
     result = results[0]

@@ -5,29 +5,30 @@ cv-env/
 __pycache__/
 *.py[cod]
 
-# YOLO downloaded model weights
+# YOLO model weights
 *.pt
 
-# Local input images
+# Local test images and videos
 *.jpg
 *.jpeg
 *.png
-
-# Local input/output videos
 *.mp4
 *.avi
 *.mov
 
-# YOLO-generated output folders
+# Allow safe demo assets used in README
+!assets/
+!assets/*.png
+!assets/*.gif
+
+# Generated folders
 runs/
 outputs/
 
 # VS Code local settings
 .vscode/
 
-# Optional: personal notes file
-main.txt
-
 # Windows system files
 Thumbs.db
 Desktop.ini
+main.txt
