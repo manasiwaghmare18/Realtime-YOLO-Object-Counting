@@ -80,8 +80,7 @@ For every detection, the application can display:
 The project supports three inference modes: static image detection, recorded-video detection, and live webcam detection with per-frame object counts.
 
 ### 🖼️ Image Detection
-
-https://github.com/user-attachments/assets/14e00e5a-c0fb-47b0-b30d-d12333d3afbb
+<img width="394" height="423" alt="Image" src="https://github.com/user-attachments/assets/3d8c362e-7c7b-4225-9f4b-6dd12fb5cf7c" />
 
 *YOLOv8 identifies objects in a static image and returns the class label, confidence score, and bounding-box coordinates.*
 
