@@ -96,11 +96,9 @@ https://github.com/user-attachments/assets/63b1dc54-8ced-4174-9c3c-0dd1df37ab11
 
 ### 📷 Webcam Detection and Counting
 
-![Webcam detection and counting demo](assets/webcam-counting.png)
+https://github.com/user-attachments/assets/8b9707ec-34d0-4944-961b-83251ea7c7fe
 
 *The live webcam pipeline detects visible objects, overlays bounding boxes and confidence scores, counts classes in the current frame, and displays approximate FPS.*
-Add your own screenshots or short GIFs to make this section visual. Follow the instructions directly below this gallery to add them safely.
-
 
 
 ---
